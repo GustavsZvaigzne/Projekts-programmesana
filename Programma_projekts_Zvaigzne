@@ -1,0 +1,5 @@
+S=input("Cik lielu distanci tu noskrēji, metros?")
+T=Input("Cik ilgā laikā noskrēji, minūtēs?")
+t=T*60
+V=S/t
+print("Tavs ātrums ir",V,"metri sekundē.")
