@@ -1,5 +1,14 @@
-S=input("Cik lielu distanci tu noskrēji, metros?")
-T=Input("Cik ilgā laikā noskrēji, minūtēs?")
+S=int(input("Cik lielu distanci tu noskrēji, metros?"))
+T=int(input("Cik ilgā laikā noskrēji, minūtēs?"))
 t=T*60
 V=S/t
-print("Tavs ātrums ir",V,"metri sekundē.")
+print ("Tav ātrums ir",V, "metri sekundē.")
+Ē=int(input("Cik ēdienreizes tev ir bijušas?"))
+ē=3-Ē
+if ē=3: print("Tev šodien ir jābūt vēl 3 ēdienreizēm.")
+elif: ē=2 print("Tev šodien ir jābūt vēl 2 ēdienreizēm.")
+elif: ē=1 print("Tev šodien ir jābūt vēl 1 ēdienreize.")
+else: print ("Tev šodien nav vairs neviena ēdienreize.")
+M=int(input("Cik stundas miega tu gulēji pagāšnakt?"))
+if 10=>M>=8: print ("Malacis! Vari turpināt tik ilgi gulēt.")
+elif M=<8: print ("Tev jāiet laicīgāk gulēt.")
